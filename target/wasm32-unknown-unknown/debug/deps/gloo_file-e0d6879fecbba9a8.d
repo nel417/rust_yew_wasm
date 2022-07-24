@@ -1,0 +1,11 @@
+/Users/nickland/Desktop/todo/target/wasm32-unknown-unknown/debug/deps/gloo_file-e0d6879fecbba9a8.rmeta: /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/lib.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/blob.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_list.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_reader.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/object_url.rs
+
+/Users/nickland/Desktop/todo/target/wasm32-unknown-unknown/debug/deps/libgloo_file-e0d6879fecbba9a8.rlib: /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/lib.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/blob.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_list.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_reader.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/object_url.rs
+
+/Users/nickland/Desktop/todo/target/wasm32-unknown-unknown/debug/deps/gloo_file-e0d6879fecbba9a8.d: /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/lib.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/blob.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_list.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_reader.rs /Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/object_url.rs
+
+/Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/lib.rs:
+/Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/blob.rs:
+/Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_list.rs:
+/Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/file_reader.rs:
+/Users/nickland/.cargo/registry/src/github.com-1ecc6299db9ec823/gloo-file-0.2.3/src/object_url.rs:
