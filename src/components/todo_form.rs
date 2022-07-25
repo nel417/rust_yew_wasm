@@ -1,37 +1,40 @@
-use gloo::console::log;
+use std::ops::Deref;
 use yew::prelude::*;
 use crate::components::text_input::TextInput;
 
 use crate::components::custom_button::CustomButton;
 
+// #[derive(Properties, PartialEq)]
+// pub struct Props {
+//     onsubmit: Callback<()>,
+// }
+
+#[derive(Default, Clone)]
+struct Data {
+   pub todo: String,
+}
 
 
 #[function_component(TodoForm)]
 pub fn todo_form() -> Html {
 
-
-
-
-
-    let todo_state = use_state(|| "no todo set".to_owned());
-    let cloned_todo_state = todo_state.clone();
+    let state = use_state(|| Data::default());
+    let cloned_state = state.clone();
     let todo_changed = Callback::from(move |todo| {
-        cloned_todo_state.set(todo)
+        // let mut data = cloned_state.deref().clone();
+        // data.todo = todo;
+        // cloned_state.set(data)
+        cloned_state.set(
+            Data{todo, ..cloned_state.deref().clone()}
+        )
     });
 
 
-
-
-
-
-
-
-
     html! {
-        <form>
+        <div>
+        <p>{"Todo: "}{&state.todo}</p>
         <TextInput name="Todo" handle_onchange={todo_changed}/>
-        <CustomButton label="Add Todo!!!!!!" />
-        <p>{"Todo: "}{&*todo_state}</p>
-        </form>
+        <CustomButton label="Add Todo!!!!!!"  />
+        </div>
     }
 }

@@ -1,4 +1,3 @@
-use gloo::console::log;
 use web_sys::HtmlInputElement;
 use wasm_bindgen::JsCast;
 use yew::prelude::*;
@@ -27,6 +26,6 @@ pub fn text_input(props: &Props) -> Html {
 
 
     html! {
-        <input type="text" name={props.name.clone()} onchange={on_change} />
+        <input type="text" name={props.name.clone()} onchange={on_change} placeholder={"Todo"} />
     }
 }
