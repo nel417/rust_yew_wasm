@@ -12,7 +12,7 @@ pub fn app() -> Html {
     let main_title_load = Callback::from(|message: String| log!(message));
     html! {
         <div>
-        <MainTitle title="Todo List" color={Color::Dark} on_load={main_title_load}/>
+        <MainTitle title="Todo List" color={Color::Dark} />
         <TodoForm />
         </div >
     }
