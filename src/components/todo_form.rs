@@ -8,9 +8,9 @@ use crate::components::custom_button::CustomButton;
 #[function_component(TodoForm)]
 pub fn todo_form() -> Html {
     html! {
-        <div>
+        <form>
         <TextInput name="Todo" />
-        <CustomButton label="Add Todo" />
-        </div>
+        <CustomButton label="Add Todo!!!!!!" />
+        </form>
     }
 }
